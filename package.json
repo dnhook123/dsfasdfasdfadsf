@@ -1,6 +1,6 @@
 {
   "name": "pulumi-cr-platform",
-  "version": "2.1.4",
+  "version": "4.0.0",
   "description": "please welp",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
