@@ -1,5 +1,5 @@
 {
-  "name": "pulumi-cr-platform-component",
+  "name": "pulumi-cr-platform",
   "version": "2.1.3",
   "description": "please welp",
   "main": "dist/index.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dnhook123/pulumi-cr-platform-component.git"
+    "url": "git+https://github.com/dnhook123/pulumi-cr-platform.git"
   },
   "keywords": [],
   "author": "monisnap-jason",
