@@ -12,7 +12,7 @@
     "@types/node": "^14.18.16"
   },
   "files": [
-    "dist"
+    "*"
   ],
   "scripts": {
     "build": "tsc",
