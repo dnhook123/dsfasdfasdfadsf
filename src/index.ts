@@ -6,6 +6,7 @@ const stackConfig = new pulumi.Config('backend-api-aws');
 // Create an AWS resource (S3 Bucket)
 
 export function fixDit() {
+    console.log('help')
     const bucket = new aws.s3.Bucket(stackConfig.require('purposeName'));
 // Export the name of the bucket
     return {
