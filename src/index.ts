@@ -7,8 +7,6 @@ const stackConfig = new pulumi.Config('backend-api-aws');
 
 const pulumiProgram = async () => {
     const bucket = new aws.s3.Bucket(stackConfig.require('purposeName'));
-
-
 // Export the name of the bucket
     return {
         bucketName: bucket.id;
